@@ -1,0 +1,17 @@
+#partners-icon{
+  padding:30px;
+  /* border: 1px solid #2D2040; */
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, .2);
+  align-items: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+  min-height:200px
+}
+
+#partners-icon img{
+    height: auto;
+    max-width:100%;
+    transition: all 0.3s;
+}
