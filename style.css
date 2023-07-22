@@ -43,24 +43,11 @@ body {
 
 
 /* REF: */
-.nav>.nav-header {
-  display: inline;
-}
 
-.nav-header {
-  display: flex;
-  align-items: center;
-}
 
 .nav-logo {
-  margin-top: -3%;
-  padding-top: 0mm;
-  padding-bottom: 0mm;
-  padding-left: 6mm;
+  padding: 0 1rem;
   width: 250px;
-  /* Adjust the width as needed */
-  height: 90px;
-  object-fit: contain;
 }
 
 
@@ -94,6 +81,7 @@ body {
 .nav>.nav-links>a:hover {
   transition: transform 0.3s, cursor 0.3s;
     cursor: pointer;
+    color: var(--orange-color);
     transform: scale(1.1);
 }
 
@@ -111,7 +99,7 @@ body {
 .landing-page {
   margin-top: -8%;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
