@@ -1,20 +1,26 @@
-/* 
-Orange: #F36B23
-Purple: #2D2040
-Green: #005A31
-White: #FFFFFF 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
+:root {
+  --orange-color: #FF6B18;
+  --green-color: #005A31;
+  --white-color: #ffffff;
+  --white-grey-color: #e4e4e4;
+  --purple-color: #2d2041;
+  --dark-grey-color: #0e121b;
+  --playfair-display: 'Playfair Display', serif;
+  --prompt: 'Prompt', sans-serif;
+  --lexend: 'Lexend Deca', sans-serif;
+}
+
 body {
   background-color: white;
   margin: 0px;
-  font-family: "segoe ui";
+  font-family: 'Lexend', sans-serif;
 }
-
 
 /* Nav */
 .nav {
@@ -101,11 +107,11 @@ body {
     width: calc(100% - 2rem);
     margin: 1.5rem 0.5rem;
     box-shadow: #151117;
+    padding: 0 1rem;
   }
 
   .nav>.nav-btn {
     display: inline-block;
-    position: absolute;
     right: 0px;
     top: 0px;
   }
@@ -457,29 +463,13 @@ h2 {
 #arrow_up ::after {
   color: var(--primary);
 }
-
 /* Chris' section */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=League+Spartan:wght@500;700;800&family=Lexend+Deca:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;700&family=Overpass:wght@400;700&family=Playfair+Display:wght@500;700;900&family=Roboto:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=League+Spartan:wght@500;700;800&family=Lexend+Deca:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;700&family=Overpass:wght@400;700&family=Playfair+Display:wght@500;700;900&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Roboto:wght@400;700&display=swap');
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --orange-color: #FF6B18;
-  --green-color: #005A31;
-  --white-color: #ffffff;
-  --white-grey-color: #e4e4e4;
-  --purple-color: #2d2041;
-  --dark-grey-color: #0e121b;
-  --playfair-display: 'Playfair Display', serif;
-  --prompt: 'Prompt', sans-serif;
-  --lexend: 'Lexend Deca', sans-serif;
-}
 
 body {
   /* max-width: 1440px;
