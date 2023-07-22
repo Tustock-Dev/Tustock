@@ -556,6 +556,13 @@ hr {
     padding: 20px;
   }
 }
+/* ######################################################### phone size media Query #################################### */
+@media (max-width:1200px) {
+  .nav-logo {
+    padding: 0 1rem;
+    width: 220px;
+  }
+}
 
 
 .card {
