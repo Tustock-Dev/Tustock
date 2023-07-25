@@ -265,7 +265,7 @@ hr {
   place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .values-items {
@@ -310,7 +310,12 @@ hr {
   color: var(--purple-color);
   font-family: var(--lexend);
   font-size: 2.5rem;
-  margin: 2rem 3rem;
+  margin: 2rem 1rem;
+}
+
+.our-vision p{
+  margin: 2rem 2rem;
+  font-size: 1.2rem;
 }
 
 .vision-content {
@@ -323,15 +328,18 @@ hr {
 .vision-item {
   max-width: 350px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border: 2px solid var(--purple-color);
   border-radius: 1rem;
-  padding: 2rem;
+  padding: .5rem;
 }
 
 .item-icon {
   font-size: 3rem;
   color: var(--orange-color);
-  padding: 0 1rem 0 0;
 }
 
 .item-content p {
