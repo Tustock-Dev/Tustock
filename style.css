@@ -187,19 +187,22 @@ hr {
 
 .landing-sec-btn {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+  cursor: pointer;
 }
 
 .btn-item {
   background-color: var(--white-color);
   display: flex;
   align-items: center;
-  height: 120px;
+  height: 110px;
   width: 200px;
   border-radius: 10px;
   justify-content: center;
+  padding: 1rem;
 }
 
 .btn-item p {
@@ -209,6 +212,10 @@ hr {
   text-align: left;
 }
 
+.btn-item>.btn-icon {
+  font-size: 3rem;
+  margin: .5rem;
+}
 /* company --purpose stylings */
 .company-purpose {
   width: 100%;
