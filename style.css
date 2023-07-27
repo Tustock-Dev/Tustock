@@ -158,7 +158,8 @@ hr {
     background-color: var(--green-color);
 }
 .landing-Logo {
-  max-width: 100%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .landing-Logo img {
@@ -199,7 +200,7 @@ hr {
   display: flex;
   align-items: center;
   height: 110px;
-  width: 200px;
+  width: 250px;
   border-radius: 10px;
   justify-content: center;
   padding: 1rem;
@@ -215,6 +216,7 @@ hr {
 .btn-item>.btn-icon {
   font-size: 3rem;
   margin: .5rem;
+  color: var(--orange-color);
 }
 /* company --purpose stylings */
 .company-purpose {
