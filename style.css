@@ -67,14 +67,14 @@ header {
 }
 
 .nav>.nav-btn {
-
   display: none;
 }
 
-.nav>.nav-links {
-  display: inline;
-  float: right;
+.nav-links {
   font-size: 22px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
 .nav>.nav-links>a {
@@ -96,16 +96,20 @@ header {
 }
 
 .sign-login {
-  color: var(--white-color);
-  text-decoration: none;
   font-size: 16px;
   background-color: var(--orange-color);
-  border-radius: 3rem;
-  padding: .5rem 1rem;
-  margin-right: 20px;
+  border-radius: 2rem;
+  display: grid;
+  align-content: center;
+  padding: 1px 2rem;
+  height: 40px;
   cursor: pointer;
 }
 
+.sign-login a {
+  text-decoration: none;
+  color: var(--white-color);
+}
 .nav p {
   margin: 0;
 }
