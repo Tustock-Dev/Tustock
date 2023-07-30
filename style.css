@@ -24,15 +24,22 @@ body {
 
 /* ############################### Navigation section ################################### */
 
-.nav {
+header {
   position: sticky;
-  top: 1rem;
-  z-index: 100;
+  z-index: 1;
+  display: grid;
+  align-content: center;
+  top: 0.1px;
+  height: 100px;
+  background-color: var(--white-color);
+}
+
+.nav {
   height: 75px;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   background-color: var(--white-color);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: .6rem;
   padding: 0 1rem;
@@ -88,7 +95,20 @@ body {
   display: none;
 }
 
+.sign-login {
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  background-color: var(--orange-color);
+  border-radius: 3rem;
+  padding: .5rem 1rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
 
+.nav p {
+  margin: 0;
+}
 .container {
   max-width: 1440px;
   /* background-color: var(--white-color); */
@@ -260,6 +280,7 @@ hr {
 .purpose-item:hover {
   background-color: var(--purple-color);
   transition: 0.2s ease-out;
+  opacity: .8;
 }
 
 .purpose-item h2 {
@@ -270,7 +291,7 @@ hr {
 
 .purpose-item p {
   font-size: 16px;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .purpose-item span {
@@ -294,9 +315,9 @@ hr {
 .values-content {
   display: grid;
   place-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  padding: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
 }
 
 .values-items {
@@ -312,7 +333,7 @@ hr {
 }
 
 .icon {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   padding: 1rem;
 }
@@ -320,14 +341,24 @@ hr {
 .values-content h2 {
   font-family: var(--lexend);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
+  font-weight: 600;
 }
 
 .values-content ul {
   font-family: var(--prompt);
-  font-size: 18px;
-  padding: 2rem;
+  font-size: 16px;
+  padding: 1rem ;
+}
+
+.values-content ul li {
+  padding-left: 10px;
+}
+
+.values-items:hover {
+  background-color: var(--green-color);
+  transition: .3s ease-in;
 }
 
 /* our Vision */
