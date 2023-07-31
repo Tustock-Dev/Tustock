@@ -65,7 +65,7 @@ body {
 }
 
 .form h1 {
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .input-field {
@@ -86,4 +86,16 @@ input {
 
 .input-field i {
     margin-left: 1rem;
+}
+
+button {
+    padding: 7px 15px;
+    background: var(--orange-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: .7rem;
+    font-weight: 600;
+    font-family: var(--lexend);
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
