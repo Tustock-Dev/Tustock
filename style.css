@@ -251,10 +251,14 @@ hr {
   margin: .5rem;
   color: var(--orange-color);
 }
-/* company --purpose stylings */
+
+
+
+/* ############################# company --purpose stylings #####################################*/
+
+
 .company-purpose {
   width: 100%;
-  height: auto;
   padding: 2rem;
   display: grid;
   place-content: center;
@@ -263,9 +267,10 @@ hr {
 .company-purpose h1 {
   font-family: var(--lexend);
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 600;
   padding: 1.5rem;
   color: var(--purple-color);
+  text-align: center;
 }
 
 .purpose-content {
@@ -322,15 +327,16 @@ hr {
   color: var(--purple-color);
   font-family: var(--lexend);
   font-size: 2.5rem;
-  margin: 4rem 4rem 0 4rem;
+  margin: 3rem;
+  text-align: center;
 }
 
 .values-content {
   display: grid;
   place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
+  gap: 3rem;
+  padding: 3rem 2rem;
 }
 
 .values-items {
