@@ -256,67 +256,6 @@ hr {
 
 /* ############################# company --purpose stylings #####################################*/
 
-
-.company-purpose {
-  width: 100%;
-  padding: 2rem;
-  display: grid;
-  place-content: center;
-}
-
-.company-purpose h1 {
-  font-family: var(--lexend);
-  font-size: 2.5rem;
-  font-weight: 600;
-  padding: 1.5rem;
-  color: var(--purple-color);
-  text-align: center;
-}
-
-.purpose-content {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
-  flex-wrap: wrap;
-}
-
-.purpose-item {
-  height: 320px;
-  width: 270px;
-  background-color: var(--green-color);
-  border-radius: 0 4rem 0 4rem;
-  color: var(--white-color);
-  text-align: center;
-  font-family: var(--prompt);
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.50));
-  display: grid;
-  place-content: center;
-}
-
-.purpose-item:hover {
-  background-color: var(--purple-color);
-  transition: 0.2s ease-out;
-  opacity: .8;
-}
-
-.purpose-item h2 {
-  color: var(--white-color);
-  font-size: 1.7rem;
-  line-height: 2rem;
-}
-
-.purpose-item p {
-  font-size: 16px;
-  margin: 1rem;
-}
-
-.purpose-item span {
-  text-decoration: underline;
-  font-weight: 600;
-}
-
 /* business-values-content-styling */
 
 .business-values {

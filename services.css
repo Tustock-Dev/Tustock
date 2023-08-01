@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --light-orange: #ff6d18d5;
+    --orange-color: #FF6B18;
+    --green-color: #005A31;
+    --white-color: #ffffff;
+    --white-grey-color: #e4e4e4;
+    --purple-color: #2d2041;
+    --dark-grey-color: #0e121b;
+    --lexend: 'Lexend Deca', sans-serif;
+  }
+
+body {
+    font-family: var(--lexend);
+}
+
+.title-section {
+    text-align: center;
+    background-color: var(--white-grey-color);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section h1 {
+    color: var(--purple-color);
+    font-size: 3rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.item-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 3rem auto;
+}
+
+.item-box {
+    width: 300px;
+    height: 475px;
+    background-color: var(--white-grey-color);
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 300px;
+}
+
+.text-box {
+    padding: 1.5rem;
+}
+
+.text-box h3 {
+    color: var(--purple-color);
+    margin-bottom: 0.7rem;
+}
+
+.text-box p {
+    color: var(--purple-color);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image-2 img {
+    width: 100%;
+    height: 200px;
+}
+.text-box button {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding: .5rem 1.5rem;
+    font-size: 16px;
+    font-family: var(--lexend);
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
