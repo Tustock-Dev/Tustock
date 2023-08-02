@@ -89,7 +89,8 @@ header {
 .nav>.nav-links>a:hover {
   cursor: pointer;
   color: var(--orange-color);
-  transition: all 0.3s;
+  transform: translateY(-5%);
+  transition: 0.2s ease-in-out;
 }
 
 .nav>#nav-check {
