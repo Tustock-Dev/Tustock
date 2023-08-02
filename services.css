@@ -55,6 +55,11 @@ body {
     background-color: var(--white-grey-color);
     border-radius: 0.6rem;
     overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.item-box:hover {
+    transform: scale(102%);
 }
 
 .image-box img {
@@ -153,4 +158,64 @@ body {
 
 .text-box2-p2 {
     font-size: 15px;
+}
+
+
+/* ########################################Smart investiment stylings section ###################################################*/
+
+.smart-investiment {
+   height: 100vh;
+}
+
+.smart-investiment h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.smart-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.smart-text-sec {
+   width: 720px;
+   padding: 1.5rem; 
+}
+
+.smart-text-sec h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--purple-color);
+}
+
+.smart-text-sec p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: var(--purple-color);
+}
+
+.smart-image-sec {
+    width: 720px;
+}
+
+.smart-image-sec img {
+    width: 100%;
+}
+
+.smart-link {
+    margin-top: 1rem;
+}
+.link-btn {
+    margin-top: 1rem;
+}
+.link-btn a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 0.5rem;
+    background-color: var(--orange-color);
 }
