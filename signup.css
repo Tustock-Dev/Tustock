@@ -17,6 +17,10 @@
     --lexend: 'Lexend Deca', sans-serif;
   }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--lexend);
 }
