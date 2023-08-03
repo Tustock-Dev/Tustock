@@ -17,6 +17,15 @@
     --lexend: 'Lexend Deca', sans-serif;
 }
 
+/* With this */
+.bg-purple-color {
+    background-color: var(--purple-color); /* This will use the purple color */
+}
+
+.text-purple-color {
+    --tw-text-opacity: 1;
+    color: var(--purple-color);
+}
 html {
     scroll-behavior: smooth;
 }
