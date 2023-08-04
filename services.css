@@ -223,3 +223,12 @@ html {
     background-color: var(--orange-color);
 }
 
+@media (max-width: 360px) {
+    .section2-box {
+        margin: 1rem 0;
+    }
+
+    .item-box {
+        width: 330px;
+    }
+}
