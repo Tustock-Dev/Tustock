@@ -149,14 +149,13 @@ hr {
 /* landing page positioning */
 
 .landing-page {
-  height: 120vh;
+  height: 110vh;
   display: grid;
   place-content: center;
 }
 
 .text-container {
   width: 100%;
-  height: 100%;
   display: grid;
   place-content: center;
   text-align: center;
@@ -173,7 +172,7 @@ hr {
     background-color: var(--green-color);
 }
 .landing-Logo {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -216,7 +215,7 @@ hr {
   background-color: var(--white-color);
   display: flex;
   align-items: center;
-  height: 110px;
+  height: 100px;
   width: 250px;
   border-radius: 10px;
   justify-content: center;
@@ -225,137 +224,63 @@ hr {
 
 .btn-item p {
   color: var(--green-color);
-  margin: 0;
   font-size: 16px;
   text-align: left;
 }
 
 .btn-item>.btn-icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: .5rem;
   color: var(--orange-color);
 }
 
+/* ################################### shortcut-section ##################################### */
 
 
-/* ############################# company --purpose stylings #####################################*/
-
-/* business-values-content-styling */
-
-.business-values {
-  width: 100%;
-}
-
-.business-values h1 {
-  color: var(--purple-color);
-  font-family: var(--lexend);
-  font-size: 2.5rem;
-  margin: 3rem;
-  text-align: center;
-}
-
-.values-content {
-  display: grid;
-  place-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
-  padding: 3rem 2rem;
-}
-
-.values-items {
-  width: 100%;
-  background-color: var(--light-orange);
-  padding: 1rem;
-  display: grid;
-  place-content: center;
-  color: var(--white-color);
-  border-radius: 1.5rem;
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.50));
-  justify-content: center;
-}
-
-.icon {
-  font-size: 3rem;
-  text-align: center;
-  padding: 1rem;
-}
-
-.values-content h2 {
-  font-family: var(--lexend);
-  text-align: center;
-  font-size: 1.5rem;
-  color: white;
-  font-weight: 600;
-}
-
-.values-content ul {
-  font-family: var(--prompt);
-  font-size: 16px;
-  padding: 1rem ;
-}
-
-.values-content ul li {
-  padding-left: 10px;
-}
-
-.values-items:hover {
-  background-color: var(--green-color);
-  transition: .3s ease-in;
-}
-
-/* our Vision */
-
-.our-vision {
-  width: 100%;
-  padding: 3rem;
-}
-
-.our-vision h1 {
-  color: var(--purple-color);
-  font-family: var(--lexend);
-  font-size: 2.5rem;
-  margin: 2rem 1rem;
-}
-
-.our-vision p{
-  margin: 2rem 2rem;
-  font-size: 1.2rem;
-}
-
-.vision-content {
+.shortcut-section {
+  margin-top: 3rem;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
 }
 
-.vision-item {
-  max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 2px solid var(--purple-color);
-  border-radius: 1rem;
-  padding: .5rem;
+.short-image {
+  width: 100%;
 }
 
-.item-icon {
-  font-size: 3rem;
+
+.short-box {
+  width: 400px;
+ /*  height: 450px; */
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: 1.5rem;
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+
+}
+
+.short-box h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.short-box button {
+  color: var(--white-color);
+  background-color: var(--orange-color);
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s ease-in-out;
+}
+
+.short-box button:hover {
   color: var(--orange-color);
+  background-color: var(--purple-color);
 }
-
-.item-content p {
-  font-size: 18px;
-  font-family: var(--prompt);
-  color: var(--purple-color);
-}
-
-.item-content p span {
-  font-weight: 800;
-}
-
 /* Footer */
 .footer {
   background-color: #10141f;
@@ -366,15 +291,6 @@ hr {
   font-size: 14px;
   line-height: 1.5;
 }
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 38%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 
 
 /* ######################################    Media Queries ############################################################ */
@@ -399,7 +315,7 @@ hr {
     top: 100px;
     left: 0;
     padding: 0;
-    transition: 0.4s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .ul-screen li{
@@ -497,61 +413,7 @@ hr {
 }
 
 
-
-
-.section {
-  margin-left: 18%;
-  margin-right: 18%;
-} 
-
-.divider {
-  border-top: 5px solid #2D2040;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.header {
-  margin-left: 0.9rem;
-  margin-right: 0.9rem;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #2D2040;
-}
-
-
 /* ######################################################### phone size media Query #################################### */
-
-
-.card {
-  margin: 0.5rem;
-  width: 20rem;
-  border: 2.8px solid #2D2040;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-}
-
-.icon {
-  position: relative;
-  left: 40%;
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-  width: 20%;
-  height: 30%;
-  border-radius: 100%;
-  color: white;
-}
-
-.content {
-  width: 80%;
-  font-size: larger;
-  font-weight: 300;
-  color: #13032d;
-}
-
 
 .back-to-top {
   position: fixed;
@@ -559,6 +421,7 @@ hr {
   background-color: var(--orange-color);
   right: 30px;
   bottom: 30px;
+  color: var(--white-color);
   z-index: 99;
 }
 
@@ -628,17 +491,13 @@ h2 {
   border-radius: 50px;
 }
 
-/*** Footer ***/
-.footer {
-  color: #f36b23;
-}
 
 .footer .btn.btn-link {
   display: block;
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #f36b23;
+  /* color: #f36b23; */
   font-weight: normal;
   text-transform: capitalize;
   transition: 0.3s;
@@ -660,8 +519,8 @@ h2 {
 }
 
 .copyright {
-  color: #000000;
-  /* background: #FFFFFF; */
+  color: #ffff;
+  background: black;
   text-align: center;
 }
 
@@ -676,5 +535,4 @@ h2 {
 #arrow_up ::after {
   color: var(--primary);
 }
-/* Chris' section */
 
