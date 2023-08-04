@@ -379,6 +379,11 @@ hr {
   }
 }
 
+@media (max-width: 531px) {
+  .landing-Logo {
+    margin-top: 3rem;
+  }
+}
 
 .footer-heading {
   font-size: 1.25rem;
