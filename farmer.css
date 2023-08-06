@@ -122,3 +122,12 @@ body {
 .farmer-image img{
     width: 100%;
 }
+
+/* #################### media Queries ######################*/
+@media (max-width: 360px) {
+    .landing-image h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+}
