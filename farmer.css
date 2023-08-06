@@ -99,6 +99,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     color: var(--purple-color);
+    background-color: var(--green-color);
+    color: var(--white-color);
 }
 
 .farmer-text {
@@ -107,7 +109,7 @@ body {
 }
 
 .farmer-text h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -123,6 +125,63 @@ body {
     width: 100%;
 }
 
+.farmer-item-box h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.why-choose {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.why-choose-text-box {
+    width: 400px;
+    height: 470px;
+    background: var(--white-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.why-choose-text-box h3 {
+    text-align: center;
+    margin: 1rem;
+} 
+.why-choose-image img {
+    width: 160px;
+}
+
+.why-choose-text-box:hover {
+    transform: scale(102%);
+}
+
+.list-span span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.list-span p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list-span h2 {
+    margin-bottom: 0.5rem;
+}
 /* #################### media Queries ######################*/
 @media (max-width: 360px) {
     .landing-image h1 {
