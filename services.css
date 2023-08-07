@@ -71,6 +71,14 @@ html {
     padding: 1.5rem;
 }
 
+.text-box button a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.text-box button a:hover{
+    color: var(--purple-color);
+}
 .text-box h3 {
     color: var(--purple-color);
     margin-bottom: 0.7rem;
@@ -222,10 +230,6 @@ html {
 
 /* ########################## agribusiness ##############################*/
 
-.agribusiness {
-    height: 100vh;
-}
-
 .agribusiness h1{
     background-color: var(--green-color);
     color: var(--white-color);
@@ -274,12 +278,52 @@ html {
     font-weight: 700;
     font-size: 1.2rem;
 }
-
+.__footer-paragraph {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .__footer-paragraph p{
     font-weight: normal;
     font-size: 1rem;
     padding: 1rem;
     text-align: left;
+}
+
+
+/* ############### Government Partnerships ########################### */
+.government-sec h1 {
+    background-color: var(--green-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 1.6rem;
+    font-size: 2rem;
+}
+
+.__govern-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--purple-color);
+}
+
+.__Text-area {
+    max-width: 800px;
+}
+
+.__item-text {
+    padding: 1rem 2rem;
+}
+.__item-text h3 {
+    padding: 0.5rem 0;
+}
+
+.__image {
+    max-width: 720px;
+}
+
+.__image img{
+    width: 100%;
 }
 @media (max-width: 360px) {
     .section2-box {
