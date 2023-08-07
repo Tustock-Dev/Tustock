@@ -159,6 +159,7 @@ body {
 .why-choose-text-box h3 {
     text-align: center;
     margin: 1rem;
+    color: var(--purple-color);
 } 
 .why-choose-image img {
     width: 160px;

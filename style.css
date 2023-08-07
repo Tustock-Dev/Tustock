@@ -106,7 +106,6 @@ nav ul li a:hover {
 }
 
 .landing-page {
-  margin-top: -8%;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -149,7 +148,7 @@ hr {
 /* landing page positioning */
 
 .landing-page {
-  height: 110vh;
+  height: 100vh;
   display: grid;
   place-content: center;
 }
@@ -172,7 +171,7 @@ hr {
     background-color: var(--green-color);
 }
 .landing-Logo {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -185,7 +184,7 @@ hr {
 }
 
 .text-container p {
-  font-size: 20px;
+  font-size: 2rem;
   margin: 1rem 2rem;
   font-size: 1.5rem;
   font-family: var(--prompt);
