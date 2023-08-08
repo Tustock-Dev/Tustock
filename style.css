@@ -64,6 +64,11 @@ nav ul {
   list-style: none;
   margin-right: 2rem;
   margin-bottom: 0;
+  position: relative;
+}
+
+nav ul li {
+  position: relative;
 }
 
 nav ul li a{
@@ -81,23 +86,40 @@ nav ul li a:hover {
   display: none;
 }
 
-.sign-login {
-  font-size: 16px;
-  background-color: var(--orange-color);
-  border-radius: 1rem;
-  display: grid;
-  align-content: center;
-  padding: 0.1px 1rem;
-  height: 30px;
+.__drop ul {
+  display: block;
+  margin: 10px;
+  padding-left: 0;
+}
+
+.__drop ul li {
+  padding-bottom: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.__drop ul li {
+  color: var(--white-color);
   cursor: pointer;
 }
 
-.sign-login a {
-  text-decoration: none;
-  color: var(--white-color);
+.__drop ul li:hover {
+  color: var(--orange-color);
 }
 
+.__drop {
+  display: none;
+}
 
+nav ul li:hover .__drop {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 100%;
+  background-color: var(--green-color);
+  height: 100px;
+}
+
+/* ################################# landing page #################################*/
 .container {
   max-width: 1440px;
   background-color: var(--white-color);
