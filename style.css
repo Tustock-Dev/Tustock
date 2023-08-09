@@ -317,7 +317,7 @@ hr {
     display: block;
     position: absolute;
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: var(--white-color);
     color: var(--green-color);
     top: 100px;
@@ -340,7 +340,6 @@ hr {
   .active {
     left: -900px;
   }
-
 
   .landing-Logo {
     max-width: 100%;

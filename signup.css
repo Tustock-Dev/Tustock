@@ -42,17 +42,17 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    height: 100%;
 }
 
 .image-box {
     width: 500px;
-    height: 70vh;
+    height: 65vh;
     background-image: url(images/signup_left_image.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     color: var(--white-color);
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@ body {
 }
 .form {
     width: 500px;
-    height: 70vh;
+    height: 65vh;
     padding: 2rem;
     background-color: var(--white-grey-color);
     color: var(--purple-color);
