@@ -359,6 +359,66 @@ body {
     padding: 1.5rem;
     font-size: 1.5rem;
 }
+
+/* Our Promise to Farmers and investors */
+.investor__sec2 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.investor__sec2 h1 {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.__sec2_text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.__sec2_text1 p {
+    background-color: var(--white-grey-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 300px;
+    height: 200px;
+    padding: 1.5rem;
+    color: var(--purple-color);
+}
+
+.__sec2_text1 p span {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.__sec2_text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    color: var(--purple-color);
+}
+
+.text2_item {
+    width: 500px;
+    height: 200px;
+    padding: 1.5rem;
+    background-color: var(--white-grey-color);
+}
+
+.text2_item h3 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
 /* #################### media Queries ######################*/
 @media (max-width: 360px) {
     .landing-image h1 {

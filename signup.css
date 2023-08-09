@@ -47,7 +47,7 @@ body {
 
 .image-box {
     width: 500px;
-    height: 65vh;
+    height: 70vh;
     background-image: url(images/signup_left_image.jpg);
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@ body {
 }
 .form {
     width: 500px;
-    height: 65vh;
+    height: 70vh;
     padding: 2rem;
     background-color: var(--white-grey-color);
     color: var(--purple-color);
