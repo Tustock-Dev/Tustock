@@ -194,7 +194,7 @@ body {
 .investor_landing {
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 17, 0, 0.7), rgba(0, 31, 2, 0.7)), url(images/investor-image\ 01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url(images/investor-image\ 01.jpg);
     background-position: center;
     background-size: cover;
     color: var(--white-color);
@@ -212,20 +212,20 @@ body {
 .investor_landing a{
     text-decoration: none;
     font-size: 1.8rem;
-    color: var(--white-color);
+    color: var(--orange-color);
 }
 
 .investor_landing button {
     color: var(--white-color);
-    background-color: var(--green-color);
-    border: 3px solid var(--white-color);
+    background-color: var(--purple-color);
+    border: 3px solid var(--orange-color);
     padding: 0.3rem 1rem;
     border-radius: 0.5rem;
     transition: 0.3s ease-out;
 }
 
 .investor_landing button:hover {
-    background-color: var(--orange-color);
+    background-color: transparent;
 }
 
 .investor_heading h1 {
@@ -331,6 +331,34 @@ body {
 .__item_box:hover {
     transform: scale(102%);
 }
+
+.__sec1-item2 {
+    max-width: 720px;
+    color: var(--purple-color);
+    padding: 2rem;
+}
+
+.__sec1-item2 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.__sec1-item2 p {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.__sec1-item2 span {
+    font-weight: 700;
+}
+
+.investor_heading_3 {
+    text-align: center;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
 /* #################### media Queries ######################*/
 @media (max-width: 360px) {
     .landing-image h1 {
@@ -347,6 +375,13 @@ body {
         text-align: center;
         background-color: var(--purple-color);
         color: var(--white-color);
+        font-size: 1rem;
+    }
+    .investor_heading_3 {
+        text-align: center;
+        background-color: var(--purple-color);
+        color: var(--white-color);
+        padding: 1.5rem;
         font-size: 1rem;
     }
 }
