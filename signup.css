@@ -123,5 +123,6 @@ button {
     .form {
         height: auto;
         border-radius: 0.5rem;
+        margin: 0.5rem;
     }
 }
