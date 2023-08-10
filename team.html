@@ -14,46 +14,47 @@
 
 		<!-- custom stylesheet -->
 		<link rel="stylesheet" href="./team.css" />
-        <link rel="stylesheet" href="./navbar.css">
-
+		<link rel="stylesheet" href="./navbar.css" />
 
 		<!-- Tailwind cdn -->
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-				<!-- Navigation bar -->
-				<header>
-					<nav>
-						<div class="logo">
-							<a href="index.html"
-								><img src="images/Tustock LOGO.png" alt="Logo"
-							/></a>
+		<!-- Navigation bar -->
+		<header>
+			<nav>
+				<div class="logo">
+					<a href="index.html"
+						><img src="images/Tustock LOGO.png" alt="Logo"
+					/></a>
+				</div>
+				<ul class="ul-screen active">
+					<li><a href="#">About</a></li>
+					<li><a href="investor.html">Investor</a></li>
+					<li><a href="farmer.html">Farmer</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li>
+						<a href="#"
+							>Company <i class="fa-solid fa-caret-down"></i
+						></a>
+						<div class="__drop">
+							<ul>
+								<a href="./team.html"><li>Team</li></a>
+								<a href="./coparteners.html"
+									><li>Partners</li></a
+								>
+								<a href="./investors.html"><li>Career</li></a>
+							</ul>
 						</div>
-						<ul class="ul-screen active">
-							<li><a href="#">About</a></li>
-							<li><a href="investor.html">Investor</a></li>
-							<li><a href="farmer.html">Farmer</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li>
-								<a href="#"
-									>Company <i class="fa-solid fa-caret-down"></i
-								></a>
-								<div class="__drop">
-									<ul>
-										<a href="./team.html"><li>Team</li></a>
-										<a href="./coparteners.html"><li>Partners</li></a>
-										<a href="./investors.html"><li>Career</li></a>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Newsroom</a></li>
-						</ul>
-						<div class="bars">
-							<i class="fa-solid fa-bars"></i>
-						</div>
-					</nav>
-				</header>
-		
+					</li>
+					<li><a href="#">Newsroom</a></li>
+				</ul>
+				<div class="bars">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</nav>
+		</header>
+
 		<!-- Section 1 -->
 		<div class="bg-green-700">
 			<p
@@ -65,7 +66,7 @@
 
 		<!-- Section 2 -->
 		<div class="flex flex-col justify-center items-center">
-			<div class="pt-24 pb-4 ">
+			<div class="pt-24 pb-4">
 				<p class="text-5xl">Meet the team</p>
 				<p>The team that makes everything happen.</p>
 			</div>
@@ -108,7 +109,7 @@
 					having a Bachelor’s degree in Food Science, he is both a
 					Young African Leadership Fellow and Jasiri Talent Investor
 					Fellow.
-				</p> 
+				</p>
 			</div>
 			<!-- Div element 2 -->
 			<div class="flex flex-col justify-center items-center px-7">
@@ -181,6 +182,44 @@
 					Young African Leadership Fellow and Jasiri Talent Investor
 					Fellow.
 				</p>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<!-- Grid -->
+		<div
+			class="py-28"
+			style="background-color: rgb(33, 37, 41)"
+		>
+			<div class="grid grid-cols-4 gap-5 ml-52 ">
+				<!-- col 1 -->
+				<div class="">
+					<h2 class="text-3xl" style="color: rgb(13, 107, 186)">
+						Location
+					</h2>
+					<div class="flex gap-2">
+						<img class="w-5" src="./images//icons/map-pin-2-fill.svg" alt="">
+						<p class="text-white">Nairobi, Kenya</p>
+					</div>
+				</div>
+				<!-- col 2 -->
+				<div class="">
+					<h2 class="text-3xl" style="color: rgb(13, 107, 186)">
+						Quick Links
+					</h2>
+				</div>
+				<!-- col 3 -->
+				<div class="">
+					<h2 class="text-3xl" style="color: rgb(13, 107, 186)">
+						Social Media
+					</h2>
+				</div>
+				<!-- col 4 -->
+				<div class="">
+					<h2 class="text-3xl" style="color: rgb(13, 107, 186)">
+						Newsletter
+					</h2>
+				</div>
 			</div>
 		</div>
 	</body>
