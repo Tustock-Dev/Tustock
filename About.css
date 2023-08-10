@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-orange: #ff6d18d5;
+  --orange-color: #FF6B18;
+  --green-color: #005A31;
+  --white-color: #ffffff;
+  --white-grey-color: #e4e4e4;
+  --purple-color: #2d2041;
+  --dark-grey-color: #0e121b;
+  --lexend: 'Lexend Deca', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lexend', sans-serif;
+}
+
+h1 {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.about_container {
+    max-width: 1440px; 
+    margin: 0 auto;
+}
+
+.about_sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--purple-color);
+  margin-bottom: 2rem;
+}
+
+.__text_sec1 {
+  width: 650px;
+}
+
+.__text_sec1 p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.__text_sec1 h3{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.__image_sec1 img{
+  width: 100%;
+}
+
+hr {
+  height: 1rem;
+  margin: 1rem auto;
+  background-color: #FF6B18;
+  border: none;
+}

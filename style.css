@@ -110,6 +110,24 @@ nav ul li a:hover {
   display: none;
 }
 
+nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 3px;
+  background-color: var(--orange-color); 
+  
+  scale: 0 1;
+  transition: scale 250ms;
+}
+
+nav li:hover::after {
+  scale: 1 1;
+}
+
+
 nav ul li:hover .__drop {
   position: absolute;
   display: block;
