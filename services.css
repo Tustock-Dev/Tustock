@@ -325,6 +325,9 @@ html {
 .__image img{
     width: 100%;
 }
+
+
+
 @media (max-width: 360px) {
     .section2-box {
         margin: 1rem 0;

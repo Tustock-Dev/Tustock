@@ -105,12 +105,13 @@ body {
 
 .farmer-text {
     width: 720px;
-    padding: 3rem;
+    padding: 10px 3rem;
 }
 
 .farmer-text h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: var(--orange-color);
 }
 
 .farmer-text p {
@@ -385,11 +386,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
     margin-top: 2rem;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     padding: 1.5rem;
     color: var(--purple-color);
+    border-radius: 0.5rem;
 }
 
 .__sec2_text1 p span {
@@ -403,14 +407,16 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem;
     color: var(--purple-color);
 }
 
 .text2_item {
-    width: 500px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
     background-color: var(--white-grey-color);
 }
 
@@ -419,6 +425,13 @@ body {
     font-size: 2rem;
 }
 
+.investor__sec2 h3 a{
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    margin: 0 auto;
+}
 /* #################### media Queries ######################*/
 @media (max-width: 360px) {
     .landing-image h1 {
@@ -443,6 +456,21 @@ body {
         color: var(--white-color);
         padding: 1.5rem;
         font-size: 1rem;
+    }
+    .text2_item {
+        height: 300px;
+        margin-bottom: 1rem;
+    }
+    .__sec2_text2 {
+        margin: 2rem 0.5rem;
+    }
+
+    .farmer-text {
+        padding: 1rem;
+    }
+
+    .farmer-text h2 {
+        font-size: 2rem;
     }
 }
 
