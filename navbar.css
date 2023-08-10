@@ -1,0 +1,189 @@
+:root {
+    --light-orange: #ff6d18d5;
+    --orange-color: #FF6B18;
+    --green-color: #005A31;
+    --white-color: #ffffff;
+    --white-grey-color: #e4e4e4;
+    --purple-color: #2d2041;
+    --dark-grey-color: #0e121b;
+    --lexend: 'Lexend Deca', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* ############################### Navigation section ################################### */
+
+header {
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    top: 0.01px;
+    height: 100px;
+    padding: 30px;
+    background-color: var(--green-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.logo {
+    width: 250px;
+    margin-left: 2rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    position: relative;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: var(--orange-color);
+}
+
+.bars {
+    display: none;
+}
+
+.__drop ul {
+    display: block;
+    margin: 10px;
+    padding-left: 0;
+}
+
+.__drop ul li {
+    padding-bottom: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.__drop ul li {
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.__drop ul li:hover {
+    color: var(--orange-color);
+}
+
+.__drop {
+    display: none;
+}
+
+nav ul li:hover .__drop {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100%;
+    background-color: var(--green-color);
+    height: 100px;
+}
+
+/* ######################################    Navbar Media Queries ############################################################ */
+
+@media (max-width: 768px) {
+
+    .bars {
+        display: block;
+        font-size: 2rem;
+        color: var(--white-color);
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    .ul-screen {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: var(--white-color);
+        color: var(--green-color);
+        top: 100px;
+        left: 0;
+        padding: 0;
+        transition: 0.7s ease-in-out;
+    }
+
+    .ul-screen li {
+        color: var(--dark-grey-color);
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .ul-screen a {
+        color: var(--dark-grey-color);
+        font-size: 1.2rem;
+    }
+
+    .active {
+        left: -900px;
+    }
+
+    .landing-Logo {
+        max-width: 100%;
+    }
+
+    .landing-Logo img {
+        width: 500px;
+    }
+
+    .landing-Logo {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .landing-Logo img {
+        width: 90%;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .bars {
+        margin-right: 0;
+    }
+
+    .sign-login {
+        font-size: 16px;
+        background-color: var(--orange-color);
+        border-radius: 1rem;
+        display: grid;
+        align-content: center;
+        padding: 0.1px 1rem;
+        height: 30px;
+        cursor: pointer;
+    }
+}
