@@ -86,28 +86,25 @@ nav ul li a:hover {
   display: none;
 }
 
-.__drop ul {
-  display: block;
-  margin: 10px;
-  padding-left: 0;
-}
-
-.__drop ul li {
-  padding-bottom: 5px;
-  transition: 0.3s ease-in-out;
-}
-
-.__drop ul li {
-  color: var(--white-color);
-  cursor: pointer;
-}
-
-.__drop ul li:hover {
-  color: var(--orange-color);
-}
-
 .__drop {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding-left: 0.5rem;
   display: none;
+  margin: 0;
+  height: 110px;
+  background-color: var(--green-color);
+  z-index: 10;
+}
+
+.__drop li {
+  line-height: 2;
+  display: block;
+}
+
+li:hover .__drop {
+  display: block;
 }
 
 nav li::after {
@@ -131,14 +128,6 @@ nav ul li a.current {
   color: var(--orange-color);
 }
 
-nav ul li:hover .__drop {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 100%;
-  background-color: var(--green-color);
-  height: 100px;
-}
 
 /* ################################# landing page #################################*/
 .container {
@@ -362,6 +351,23 @@ hr {
     left: -900px;
   }
 
+  .__drop {
+    position: relative;
+    width: 100%;
+    display: none;
+    margin: 0;
+    background-color: var(--white-color);
+    z-index: 10;
+  }
+  
+  .__drop li {
+    display: block;
+    margin: 0.1rem 0 0 0;
+  }
+
+  nav li::after {
+    display: none;
+  }
   .landing-Logo {
     max-width: 100%;
   }
