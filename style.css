@@ -127,6 +127,9 @@ nav li:hover::after {
   scale: 1 1;
 }
 
+nav ul li a.current {
+  color: var(--orange-color);
+}
 
 nav ul li:hover .__drop {
   position: absolute;
