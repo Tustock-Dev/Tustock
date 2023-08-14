@@ -472,6 +472,24 @@ body {
     .farmer-text h2 {
         font-size: 2rem;
     }
+
+    .text2_item {
+        width: 450px;
+        height: 350px;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        background-color: var(--white-grey-color);
+    }
+
+    .__item_box {
+        height: 550px;
+        width: 400px;
+        padding: 1rem;
+        background-color: var(--white-color);
+        transition: 0.3s ease-out;
+    }
+
 }
 
 

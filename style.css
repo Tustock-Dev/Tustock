@@ -435,6 +435,13 @@ footer {
   color: var(--orange-color);
 }
 
+.footer_item_box1,
+.footer_item_box2,
+.footer_item_box3,
+.footer_item_box4 {
+  margin-bottom: 2rem;
+}
+
 /* ######################################    Media Queries ############################################################ */
 
 @media (max-width: 768px) {
@@ -455,9 +462,9 @@ footer {
     background-color: var(--white-color);
     color: var(--green-color);
     top: 100px;
-    left: 0;
+    left: -900px;
     padding: 0;
-    transition: 0.7s ease-in-out;
+    transition: 0.5s ease;
   }
 
   .ul-screen li{
@@ -472,7 +479,7 @@ footer {
   }
 
   .active {
-    left: -900px;
+    left: 0;
   }
 
   .__drop {
