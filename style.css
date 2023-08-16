@@ -329,6 +329,7 @@ hr {
   align-items: center;
   justify-content: center;
   font-weight: normal;
+  border-radius: 3rem;
 }
 
 .copyright {
@@ -435,12 +436,7 @@ footer {
   color: var(--orange-color);
 }
 
-.footer_item_box1,
-.footer_item_box2,
-.footer_item_box3,
-.footer_item_box4 {
-  margin-bottom: 2rem;
-}
+
 
 /* ######################################    Media Queries ############################################################ */
 
@@ -542,6 +538,7 @@ footer {
   }
 }
 
+/* **************footer******************/
 .footer-heading {
   font-size: 1.25rem;
   line-height: 1.75rem;

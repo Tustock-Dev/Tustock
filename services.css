@@ -52,7 +52,6 @@ html {
 
 .item-box {
     width: 300px;
-    height: 475px;
     background-color: var(--white-grey-color);
     border-radius: 0.6rem;
     overflow: hidden;
