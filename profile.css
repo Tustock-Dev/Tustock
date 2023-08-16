@@ -19,13 +19,15 @@
 
 /* With this */
 .bg-purple-color {
-    background-color: var(--purple-color); /* This will use the purple color */
+    background-color: var(--purple-color);
+    /* This will use the purple color */
 }
 
 .text-purple-color {
     --tw-text-opacity: 1;
     color: var(--purple-color);
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -689,6 +691,46 @@ h2 {
     border: 20px solid var(--light);
     background: var(--primary);
     border-radius: 50px;
+}
+
+/*** Carousel css ***/
+.carouselsizing {
+    position: relative;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 6rem;
+}
+
+.carousel {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+}
+
+.gallery {
+    /* background: #EEE; */
+}
+
+.gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
 }
 
 /*** Footer ***/
