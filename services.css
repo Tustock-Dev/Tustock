@@ -348,6 +348,172 @@ html {
     width: 100%;
 }
 
+/* agrolytics */
+.agrolytics {
+    width: 100%;
+    background-color: var(--orange-color);
+}
+
+.agro-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.agro-text {
+    max-width: 720px;
+    padding: 1.5rem;
+    color: var(--white-color);
+}
+
+.agro-text h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--purple-color);
+}
+.agro-text p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.agro-image {
+    max-width: 720px;
+    padding: 1rem;
+}
+.agro-image img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+/* soko */
+.soko {
+    width: 100%;
+    background-color: var(--white-grey-color);
+}
+
+.soko-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.soko-text {
+    max-width: 720px;
+    padding: 1.5rem;
+    color: var(--purple-color);
+}
+
+.soko-text h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.soko-text p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+.soko-image {
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.soko-image img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+/* KUZA */
+.kuza {
+    width: 100%;
+    background-color: var(--orange-color);
+}
+
+.kuza-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.kuza-text {
+    max-width: 720px;
+    padding: 1.5rem;
+    color: var(--white-color);
+}
+
+.kuza-text h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--purple-color);
+}
+
+.kuza-text p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.kuza-image {
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.kuza-image img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+
+/* smart */
+.smart {
+    width: 100%;
+    background-color: var(--white-grey-color);
+}
+
+.smart-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.smart-text {
+    max-width: 720px;
+    padding: 1.5rem;
+    color: var(--purple-color);
+}
+
+.smart-text h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.smart-text p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.smart-image {
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.smart-image img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
 
 
 @media (max-width: 360px) {
@@ -357,5 +523,12 @@ html {
 
     .item-box {
         width: 330px;
+    }
+
+    .agro-image img,
+    .soko-image img,
+    .kuza-image img,
+    .smart-image img {
+        border-radius: 0.9rem;
     }
 }
