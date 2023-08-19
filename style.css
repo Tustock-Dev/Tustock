@@ -771,6 +771,9 @@ footer {
  .btn-icon {
   margin-left: 1rem;
  }
+ .landing-page {
+  height: 80vh;
+ }
 }
 
 
