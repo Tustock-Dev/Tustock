@@ -244,32 +244,187 @@ hr {
   color: var(--orange-color);
 }
 
-/* ################################### shortcut-section ##################################### */
 
-
-.shortcut-section {
-  margin-top: 3rem;
+/* Sustainable Business: Building a Purpose Driven Brand */
+.title-section {
+  text-align: center;
+  background-color: var(--white-grey-color);
+  height: 100px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.short-image {
+.title-section h1 {
+  color: var(--purple-color);
+  font-size: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.services-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 3rem auto;
+}
+
+.item-box {
+  width: 300px;
+  background-color: var(--white-grey-color);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.item-box:hover {
+  transform: scale(102%);
+}
+
+.image-box img {
   width: 100%;
 }
 
+.text-box {
+  padding: 1.5rem;
+}
+
+.text-box button a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.text-box button a:hover {
+  color: var(--purple-color);
+}
+
+.text-box h3 {
+  color: var(--purple-color);
+  margin-bottom: 0.7rem;
+}
+
+.text-box p {
+  color: var(--purple-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.image-2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.text-box button {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  padding: .5rem 1.5rem;
+  font-size: 16px;
+  font-family: var(--lexend);
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.section2-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section2-heading {
+  width: 100%;
+}
+
+.section2-heading h2 {
+  color: var(--purple-color);
+  text-align: center;
+  margin: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.item-box2 {
+  display: flex;
+  width: 710px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.3s ease-out;
+}
+
+.item-box2:hover {
+  transform: scale(101%);
+}
+
+.item-box-image {
+  width: 350px;
+}
+
+.item-box-image img {
+  width: 100%;
+}
+
+.text-box2 {
+  padding: 1rem;
+  width: 350px;
+}
+
+.text-box2 h3 {
+  color: var(--purple-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.item-box2 p {
+  line-height: 1.5;
+  color: var(--purple-color);
+}
+
+.text-box2-p2 {
+  font-size: 15px;
+}
+
+
+/* ################################### Non-Revenue Water-section ##################################### */
+
+
+.LRW-section {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: var(--green-color);
+  flex-wrap: wrap;
+}
+
+.lrw-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.lrw-image {
+  width: 720px;
+}
+
+.lrw-image img {
+  width: 90%;
+}
 
 .short-box {
-  width: 400px;
- /*  height: 450px; */
-  background-color: var(--green-color);
+  width: 720px;
   color: var(--white-color);
   padding: 1.5rem;
-  display: grid;
-  place-content: center;
-  margin: 1rem;
-  transition: 0.3s ease-in-out;
-
 }
 
 .short-box h2 {
@@ -285,17 +440,13 @@ hr {
   height: 40px;
   border: none;
   border-radius: 0.4rem;
+  margin-top: 0.5rem;
   transition: 0.3s ease-in-out;
 }
 
 .short-box button:hover {
   color: var(--orange-color);
   background-color: var(--purple-color);
-}
-
-.short-box:hover {
-  transform: scale(103%);
-  cursor: pointer;
 }
 
 /*** Back to top Button ***/
@@ -527,16 +678,6 @@ footer {
     margin-right: 0;
   }
   
-  .sign-login {
-    font-size: 16px;
-    background-color: var(--orange-color);
-    border-radius: 1rem;
-    display: grid;
-    align-content: center;
-    padding: 0.1px 1rem;
-    height: 30px;
-    cursor: pointer;
-  }
 }
 
 @media (max-width: 531px) {
