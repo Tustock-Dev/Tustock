@@ -410,12 +410,13 @@ hr {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .lrw-image {
   width: 720px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .lrw-image img {
@@ -432,16 +433,22 @@ hr {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: var(--orange-color);
+}
+
+.short-box p{
+  line-height: 1.5rem;
 }
 
 .short-box button {
   color: var(--white-color);
   background-color: var(--orange-color);
+  font-weight: 600;
   width: 150px;
   height: 40px;
   border: none;
   border-radius: 0.4rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   transition: 0.3s ease-in-out;
 }
 
