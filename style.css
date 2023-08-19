@@ -397,11 +397,9 @@ hr {
 
 
 .LRW-section {
-  display: flex;
   width: 100%;
   margin-top: 1rem;
   background-color: var(--green-color);
-  flex-wrap: wrap;
 }
 
 .lrw-container {
@@ -457,6 +455,62 @@ hr {
   background-color: var(--purple-color);
 }
 
+/* #######################join ############################*/
+
+.join {
+  width: 100%;
+}
+
+.join-container {
+  max-width: 1440px;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.join-text {
+  max-width: 600px;
+  width: 100%;
+  margin: 1rem;
+}
+.join-buttons {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.join-btn1 {
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
+  margin: 0 2rem;
+  background-color: var(--orange-color);
+  border: none;
+}
+
+.join-btn2 {
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
+  margin: 0 2rem;
+  background-color: var(--white-color);
+  border: 2px solid var(--orange-color);
+}
+
+.join-btn1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-family: var(--lexend);
+}
+
+.join-btn2 a {
+  text-decoration: none;
+  color: var(--orange-color);
+  font-weight: 600;
+  font-family: var(--lexend);
+}
 /*** Back to top Button ***/
 
 .back-to-top {
@@ -691,6 +745,11 @@ footer {
 @media (max-width: 531px) {
   .landing-Logo {
     margin-top: 3rem;
+  }
+
+  .join-btn1,
+  .join-btn1 {
+    margin: 0 0.8rem;
   }
 }
 
