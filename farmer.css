@@ -264,32 +264,34 @@ body {
     text-align: center;
     background-color: var(--purple-color);
     color: var(--white-color);
-    padding: 2rem;
+    padding: 1rem;
     font-size: 3rem;
 }
 
 .investor__sec1 {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 2rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--white-color);
 }
 
 .__sec1-item {
-    max-width: 720px;
+    max-width: 600px;
     padding: 2rem;
 }
 
 .__sec1-item h2 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--purple-color);
 }
 
 .__sec1-item p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
     color: var(--purple-color);
 }
@@ -299,27 +301,33 @@ body {
     background-color: var(--purple-color);
     text-decoration: none;
     padding: 10px;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.__sec1-item h3 a:hover {
+    background-color: transparent;
+    color: var(--orange-color);
 }
 .__sec1-item_image {
-    max-width: 720px;
-    overflow: hidden;
+    max-width: 600px;
 }
 
 .__sec1-item_image img{
     width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
 }
 
 .investor_heading_2 {
     text-align: center;
-    background-color: var(--purple-color);
-    color: var(--white-color);
-    padding: 1rem;
-    font-size: 1.5rem;
+    color: var(--purple-color);
+    font-size: 1.2rem;
+    background-color: var(--white-grey-color);
 }
 
 .__investor-choose {
     background-color: var(--white-grey-color);
-    /* height: 80vh; */
     padding: 2rem 0;
     display: flex;
     justify-content: center;
@@ -365,13 +373,14 @@ body {
 }
 
 .__sec1-item2 {
-    max-width: 720px;
+    max-width: 600px;
+    width: 100%;
     color: var(--purple-color);
     padding: 2rem;
 }
 
 .__sec1-item2 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -386,21 +395,19 @@ body {
 
 .investor_heading_3 {
     text-align: center;
-    background-color: var(--purple-color);
-    color: var(--white-color);
-    padding: 1.5rem;
-    font-size: 1.5rem;
+    color: var(--purple-color);
+    padding: 1rem;
+    font-size: 1.3rem;
 }
 
 /* Our Promise to Farmers and investors */
 .investor__sec2 {
-    max-width: 1440px;
+    background-color: var(--white-grey-color);
     margin: 0 auto;
 }
 .investor__sec2 h1 {
-    background-color: var(--purple-color);
-    color: var(--white-color);
-    padding: 1.5rem;
+    color: var(--purple-color);
+    padding: 1rem;
     text-align: center;
 }
 
@@ -429,7 +436,7 @@ body {
 
 .__sec2_text1 p span {
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 .__sec2_text2 {
