@@ -77,7 +77,7 @@ body {
     background-color: var(--green-color);
     color: var(--white-color);
     text-align: center;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,12 +99,12 @@ body {
     align-items: center;
     flex-wrap: wrap;
     color: var(--purple-color);
-    background-color: var(--green-color);
+    background-color: var(--white-grey-color);
     color: var(--white-color);
 }
 
 .farmer-text {
-    width: 720px;
+    width: 600px;
     padding: 10px 3rem;
 }
 
@@ -115,21 +115,51 @@ body {
 }
 
 .farmer-text p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--purple-color);
 }
 
 .farmer-image {
-    width: 720px;
+    width: 600px;
+    padding: 1rem;
 }
 
 .farmer-image img{
     width: 100%;
+    border-radius: 1rem;
 }
 
 .farmer-item-box h1 {
     text-align: center;
     padding: 2rem;
     font-size: 3rem;
+}
+
+.farmer-box1 button {
+    background-color: var(--orange-color);
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.farmer-box1 button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.farmer-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--white-color);
+    padding: 2rem;
+}
+
+.farmer-box2 > .farmer-image img{
+    width: 480px;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 .why-choose {
