@@ -392,6 +392,99 @@ hr {
   font-size: 15px;
 }
 
+/* section-1 */
+
+.section-1 {
+  width: 100%;
+}
+
+.__sec1-box-container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--purple-color);
+}
+.__sec1_box {
+  max-width: 600px;
+  width: 100%;
+}
+.__sec1_box h1 {
+  margin: 1rem 0;
+}
+
+.__sec1_box h3 {
+  margin: 0.5rem 0;
+}
+
+.__sec1_box button {
+  background-color: transparent;
+  border: 2px solid var(--orange-color);
+  padding: 0.5rem 2rem;
+  margin: 1.5rem 0;
+  border-radius: 0.4rem;
+}
+
+.__sec1_box button a {
+  text-decoration: none;
+  color: var(--orange-color);
+  font-weight: 600;
+}
+
+
+/* ################## vision_container ######################### */
+.vision_container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.vision_text {
+  width: 700px;
+  padding: 2rem;
+}
+
+.vision_text h1 {
+  margin-bottom: 1.5rem;
+}
+
+.vision_text p{
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.vision_text button{
+  background-color: transparent;
+  border: 2px solid var(--orange-color);
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+}
+
+.vision_text button a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--orange-color);
+}
+.vision_image {
+  width: 700px;
+}
+
+.vision_image img {
+  width: 90%;
+  border-radius: 1rem;
+}
+
 
 /* ################################### Non-Revenue Water-section ##################################### */
 
@@ -399,7 +492,7 @@ hr {
 .LRW-section {
   width: 100%;
   margin-top: 1rem;
-  background-color: var(--green-color);
+  background-color: var(--white-grey-color);
 }
 
 .lrw-container {
@@ -436,6 +529,7 @@ hr {
 
 .short-box p{
   line-height: 1.5rem;
+  color: var(--purple-color);
 }
 
 .short-box button {
@@ -459,6 +553,7 @@ hr {
 
 .join {
   width: 100%;
+  background-color: var(--white-grey-color);
 }
 
 .join-container {
@@ -483,7 +578,7 @@ hr {
 }
 
 .join-btn1 {
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 0.6rem;
   margin: 0 2rem;
   background-color: var(--orange-color);
@@ -491,7 +586,7 @@ hr {
 }
 
 .join-btn2 {
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 0.6rem;
   margin: 0 2rem;
   background-color: var(--white-color);
@@ -511,6 +606,8 @@ hr {
   font-weight: 600;
   font-family: var(--lexend);
 }
+
+
 /*** Back to top Button ***/
 
 .back-to-top {
