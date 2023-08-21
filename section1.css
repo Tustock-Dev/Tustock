@@ -86,3 +86,47 @@ body {
     width: 100%;
     border-radius: 1rem;
 }
+
+/* next/back buttons stylings */
+.nextback-btns {
+    height: 90px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-color: var(--orange-color);
+    padding: 0.5rem 2rem;
+    border: none;
+    margin: 1rem;
+    color: var(--white-color);
+    border-radius: 0.3rem;
+}
+.next {
+    background-color: var(--orange-color);
+    padding: 0.5rem 2rem;
+    border: none;
+    margin: 1rem;
+    color: var(--white-color);
+    border-radius: 0.3rem;
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 550;
+}
+.next a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 550;
+}
+.next a:hover {
+    color: var(--purple-color);
+}
+.back a:hover {
+    color: var(--purple-color);
+}
