@@ -104,8 +104,9 @@ body {
 }
 
 .farmer-text {
-    width: 600px;
-    padding: 10px 3rem;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px 2rem;
 }
 
 .farmer-text h2 {
@@ -120,12 +121,14 @@ body {
 }
 
 .farmer-image {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     padding: 1rem;
 }
 
 .farmer-image img{
     width: 100%;
+    margin: 1rem 0;
     border-radius: 1rem;
 }
 
@@ -153,13 +156,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--white-color);
-    padding: 2rem;
-}
-
-.farmer-box2 > .farmer-image img{
-    width: 480px;
-    padding: 1rem;
-    border-radius: 2rem;
 }
 
 .why-choose {
