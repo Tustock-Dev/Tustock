@@ -58,6 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
+    background-color: var(--white-grey-color);
 }
 
 .text-box {
