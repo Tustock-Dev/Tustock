@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
 
+/* Poppins & Monserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+/* Define font families for Poppins */
+font-family: 'Poppins', sans-serif;
+font-weight: 400; /* Regular */
+font-weight: 600; /* Semibold */
+font-weight: 700; /* Bold */
+
+/* Define font families for Montserrat */
+font-family: 'Montserrat', sans-serif;
+font-weight: 400; /* Regular */
+font-weight: 600; /* Semibold */
+font-weight: 700; /* Bold */
+
+/* Source serif pro */
+@import url('https://fonts.cdnfonts.com/css/source-serif-pro?styles=20103,20104,20100');
+
+/* Define font families for Source Serif Pro */
+font-family: 'Source Serif Pro', sans-serif;
+font-weight: 400; /* Regular */
+font-weight: 600; /* Semibold */
+font-weight: 700; /* Bold */
+
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +32,31 @@
 }
 
 :root {
+  /* Font: Poppins */
+  --poppins-regular: 'Poppins', sans-serif;
+  --poppins-regular: 400;
+  --poppins-semibold: 'Poppins', sans-serif;
+  --poppins-semibold: 600;
+  --poppins-bold: 'Poppins', sans-serif;
+  --poppins-bold: 700;
+
+  /* Font: Montserrat */
+  --montserrat-regular: 'Montserrat', sans-serif;
+  --montserrat-regular: 400;
+  --montserrat-semibold: 'Montserrat', sans-serif;
+  --montserrat-semibold: 600;
+  --montserrat-bold: 'Montserrat', sans-serif;
+  --montserrat-bold: 700;
+
+  /* Font: Source Serif Pro */
+  --source-serif-regular: 'Source Serif Pro', serif;
+  --source-serif-regular: 400;
+  --source-serif-semibold: 'Source Serif Pro', serif;
+  --source-serif-semibold: 600;
+  --source-serif-bold: 'Source Serif Pro', serif;
+  --source-serif-bold: 700;
+
+  /* color variables */
   --light-orange: #ff6d18d5;
   --orange-color: #FF6B18;
   --green-color: #005A31;
