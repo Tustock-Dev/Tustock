@@ -927,6 +927,10 @@ footer {
    width: 700px;
    padding: 2rem 0;
  }
+
+ .footer-container {
+  display: block;
+ }
 }
 
 
