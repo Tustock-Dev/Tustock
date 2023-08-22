@@ -131,3 +131,71 @@ body {
 .back a:hover {
     color: var(--purple-color);
 }
+
+/* ####################### ourvision styling ################### */
+
+.ourvision {
+    background-color: var(--white-grey-color);
+}
+
+.__vision-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.__vision-header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--purple-color);
+}
+
+.__vision-header p {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--white-color);
+}
+
+.__vision {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.__vision_box {
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.__vision-text {
+    padding: 1rem;
+    background-color: var(--orange-color);
+}
+
+.__vision-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--purple-color);
+}
+
+.__vision-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+}
+
+.__vision-image i {
+    font-size: 9rem;
+    text-align: center;
+    padding: 1rem;
+    color: var(--purple-color);
+}
