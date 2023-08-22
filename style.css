@@ -922,6 +922,11 @@ footer {
  .landing-page {
   height: 80vh;
  }
+
+ .vision_text {
+   width: 700px;
+   padding: 2rem 0;
+ }
 }
 
 
