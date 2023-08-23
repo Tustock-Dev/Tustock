@@ -187,14 +187,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--white-color);
+    background-color: var(--orange-color);
 }
 
 .__vision-image i {
-    font-size: 9rem;
+    font-size: 7rem;
     text-align: center;
-    padding: 1rem;
-    color: var(--purple-color);
+    padding: 2rem;
+    color: var(--white-color);
 }
 
 /* building  */
@@ -206,7 +206,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     color: var(--purple-color);
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .building_header h1 {
