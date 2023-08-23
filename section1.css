@@ -135,42 +135,39 @@ body {
 /* ####################### ourvision styling ################### */
 
 .ourvision {
-    background-color: var(--white-grey-color);
+    background-color: var(--white-color);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 4rem 0;
 }
 
 .__vision-header {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    max-width: 720px;
+    padding: 2rem 0;
 }
 
 .__vision-header h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
     color: var(--purple-color);
+    padding: 0 2rem;
 }
 
 .__vision-header p {
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: var(--white-color);
+    padding: 1rem 2rem;
 }
 
 .__vision {
-    max-width: 1440px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2rem 0;
+    background-color: var(--white-color);
     gap: 2rem;
 }
 
 .__vision_box {
-    width: 500px;
-    margin: 0 auto;
+    width: 320px;
     background-color: var(--orange-color);
     color: var(--white-color);
 }
