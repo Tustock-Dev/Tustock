@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700;8..60,800&display=swap');
 
 * {
     padding: 0;
@@ -14,7 +14,8 @@
     --white-grey-color: #e4e4e4;
     --purple-color: #2d2041;
     --dark-grey-color: #0e121b;
-    --lexend: 'Lexend Deca', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --source-serif: 'Source Serif 4', serif;
 }
 
 /* With this */
@@ -34,9 +35,12 @@ html {
 
 body {
     margin: 0px;
-    font-family: 'Lexend', sans-serif;
+    font-family: var(--poppins)
 }
 
+h1 {
+    font-family: var(--source-serif);
+}
 /* ############################### Navigation section ################################### */
 
 navigations {
