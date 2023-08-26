@@ -136,6 +136,10 @@ h1 {
     color: var(--purple-color);
 }
 
+section {
+    padding: 2rem 0;
+}
+
 /* ####################### ourvision styling ################### */
 
 .ourvision {
@@ -404,6 +408,13 @@ h1 {
     margin: 2rem 0;
 }
 @media (max-width: 531px) {
+    /* digilization */
+    .__digital-box {
+        padding: 0;
+    }
+    .__digital-text {
+        padding: 1rem;
+    }
     /* food security triad */
     .__food-image {
         padding: 0;
