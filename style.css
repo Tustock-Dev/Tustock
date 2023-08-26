@@ -888,6 +888,13 @@ footer {
  .footer-container {
   display: block;
  }
+ nav {
+  justify-content: space-between;
+  align-items: normal;
+ }
+ .logo {
+    width: 230px;
+ }
 }
 
 
