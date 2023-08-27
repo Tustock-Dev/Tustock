@@ -257,8 +257,8 @@ h1 {
     transition: 0.3s ease-out;
 }
 
-.investor_landing button:hover {
-    background-color: transparent;
+.investor_landing button a:hover {
+    color: #FF6B18;
 }
 
 .investor__sec1 {
