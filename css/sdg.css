@@ -63,6 +63,19 @@ h1 {
     flex-wrap: wrap;
 }
 
+.sdg-box-item:nth-child(2) {
+    flex-wrap: wrap-reverse;
+}
+.sdg-box-item:nth-child(4) {
+    flex-wrap: wrap-reverse;
+}
+.sdg-box-item:nth-child(6) {
+    flex-wrap: wrap-reverse;
+}
+.sdg-box-item:nth-child(8) {
+    flex-wrap: wrap-reverse;
+}
+
 .__sdg-box-tex {
     width: 650px;
     padding: 1rem;
