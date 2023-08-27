@@ -226,7 +226,7 @@ h1 {
 .investor_landing {
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url(images/investor-image\ 01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url(../images/investor-image\ 01.jpg);
     background-position: center;
     background-size: cover;
     color: var(--white-color);
@@ -244,13 +244,14 @@ h1 {
 .investor_landing a{
     text-decoration: none;
     font-size: 1.8rem;
-    color: var(--orange-color);
+    font-family: var(--poppins);
+    color: var(--purple-color);
 }
 
 .investor_landing button {
     color: var(--white-color);
-    background-color: var(--purple-color);
-    border: 3px solid var(--orange-color);
+    background-color: var(--white-grey-color);
+    border: none;
     padding: 0.3rem 1rem;
     border-radius: 0.5rem;
     transition: 0.3s ease-out;
@@ -258,14 +259,6 @@ h1 {
 
 .investor_landing button:hover {
     background-color: transparent;
-}
-
-.investor_heading h1 {
-    text-align: center;
-    background-color: var(--purple-color);
-    color: var(--white-color);
-    padding: 1rem;
-    font-size: 3rem;
 }
 
 .investor__sec1 {
@@ -322,6 +315,7 @@ h1 {
 .investor_heading_2 {
     text-align: center;
     color: var(--purple-color);
+    padding: 2rem;
     font-size: 1.2rem;
     background-color: var(--white-grey-color);
 }
@@ -373,10 +367,10 @@ h1 {
 }
 
 .__sec1-item2 {
-    max-width: 600px;
+    max-width: 650px;
     width: 100%;
     color: var(--purple-color);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .__sec1-item2 h2 {
@@ -386,7 +380,6 @@ h1 {
 
 .__sec1-item2 p {
     margin-bottom: 1rem;
-    font-size: 1.4rem;
 }
 
 .__sec1-item2 span {

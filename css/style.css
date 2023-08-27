@@ -147,7 +147,7 @@ nav ul li a.current {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url(images/Slider-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url(../images/Slider-4.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
