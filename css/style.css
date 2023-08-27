@@ -659,6 +659,7 @@ hr {
   color: #ffff;
   background: black;
   text-align: center;
+  padding: 1rem;
 }
 
 .copyright a:hover {
@@ -691,10 +692,10 @@ footer {
 }
 
 .footer-container h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--white-grey-color);
   margin-bottom: 1rem;
-  border-bottom: 5px solid var(--orange-color);
+  border-bottom: 3px solid var(--orange-color);
   padding-bottom: 0.7rem;
 }
 
@@ -721,6 +722,10 @@ footer {
 
 .footer_item_box2 a:hover {
   color: var(--orange-color);
+}
+
+footer p {
+  font-size: 0.8rem;
 }
 
 .social {
