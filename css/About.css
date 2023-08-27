@@ -39,6 +39,7 @@ h1 {
 .about_container {
     max-width: 1440px; 
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .about_sec1 {
@@ -49,14 +50,15 @@ h1 {
   color: var(--purple-color);
   margin-bottom: 2rem;
 }
-
+.about_sec1:nth-child(2) {
+  flex-wrap: wrap-reverse;
+}
 .__text_sec1 {
   width: 650px;
 }
 
 .__text_sec1 p {
   padding: 1rem;
-  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -67,11 +69,5 @@ h1 {
 
 .__image_sec1 img{
   width: 100%;
-}
-
-hr {
-  height: 1rem;
-  margin: 1rem auto;
-  background-color: #FF6B18;
-  border: none;
+  border-radius: 1rem;
 }
