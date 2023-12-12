@@ -785,7 +785,7 @@ footer p {
 .hidden-right {
   opacity: 0; 
   transform: translateX(40%);
-  transition: all 1s ease-in-out;
+  transition: all 1s ease-in;
 }
 
 .show {
