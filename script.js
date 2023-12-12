@@ -15,3 +15,18 @@ navLinks.forEach((links) => {
     links.classList.add("current");
   }
 });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entries);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+      entry.target.classList.add("show-right");
+    } else {
+      if (entry.isIntersecting) {
+        entry.target.classList.remove("show");
+        entry.target.classList.remove("show-right");
+      }
+    }
+  });
+});
