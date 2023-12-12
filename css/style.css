@@ -779,13 +779,13 @@ footer p {
 .hidden {
   opacity: 0; 
   transform: translateX(-40%);
-  transition: all 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .hidden-right {
   opacity: 0; 
   transform: translateX(40%);
-  transition: all 1s ease-in;
+  transition: all 1s ease-in-out;
 }
 
 .show {
