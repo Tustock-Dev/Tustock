@@ -941,6 +941,14 @@ footer p {
   header {
     padding: 30px 15px;
   }
+
+  .hidden {
+    transition: none;
+  }
+  
+  .hidden-right {
+    transition: none;
+  }
 }
 
 
