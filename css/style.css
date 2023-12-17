@@ -880,7 +880,10 @@ footer p {
 /* ######################################    Media Queries ############################################################ */
 
 @media (max-width: 768px) {
-
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .bars {
     display: block;
     font-size: 2rem;
@@ -963,6 +966,10 @@ footer p {
 }
 
 @media (max-width: 531px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .landing-Logo {
     margin-top: 3rem;
   }
