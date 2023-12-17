@@ -21,11 +21,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-X: hidden;
 }
 
 body {
-  margin: 0px;
   font-family: var(--poppins);
+  width: 100%;
 }
 
 h1 {
@@ -138,6 +139,7 @@ nav ul li a.current {
 /* ################################# landing page #################################*/
 .container {
   max-width: 1440px;
+  width: 100%;
   background-color: var(--white-color);
   /* background-color: var(--white-color); */
   margin: 0 auto;
