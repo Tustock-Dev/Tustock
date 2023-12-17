@@ -400,7 +400,7 @@ h1 {
 }
 .investor__sec2 h1 {
     color: var(--purple-color);
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -432,23 +432,31 @@ h1 {
     font-size: 1.5rem;
 }
 
+.__sec2_item1 {
+    background-image: url(https://images.unsplash.com/photo-1636987050384-9b079c700f63?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.__sec2_item2 {
+    background-image: url(https://images.unsplash.com/photo-1597452485670-5f32106899c3?q=80&w=989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.__sec2_item3 {
+    background-image: url(https://images.unsplash.com/photo-1519834785169-98be25ec3f84?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
 .__sec2_text2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
     flex-wrap: wrap;
-    gap: 1.5rem;
     margin: 2rem;
     color: var(--purple-color);
-}
-
-.text2_item {
-    width: 450px;
-    height: 300px;
-    padding: 1.5rem;
-    text-align: center;
-    border-radius: 0.5rem;
-    background-color: var(--white-grey-color);
 }
 
 .text2_item h3 {
@@ -462,6 +470,39 @@ h1 {
     color: var(--white-color);
     background-color: var(--purple-color);
     margin: 0 auto;
+}
+
+.text2_item {
+    width: 450px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: var(--white-grey-color);
+}
+
+.item__image {
+    width: 450px;
+    height: 300px;
+    /* overflow: hidden; */
+}
+
+.item__image img {
+    width: 100%;
+}
+
+.item__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text2_image {
+    width: 450px;
+}
+
+.text2_image img{
+    width: 450px;
 }
 /* #################### media Queries ######################*/
 @media (max-width: 360px) {

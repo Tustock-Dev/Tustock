@@ -47,7 +47,6 @@ h1 {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .__team-box-item {
